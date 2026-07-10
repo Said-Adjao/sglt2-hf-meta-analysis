@@ -13,6 +13,7 @@ This project synthesizes randomized evidence on SGLT2 inhibitors versus placebo 
 - **Population scope:** established ASCVD only; renal-entry (CREDENCE, SCORED, DAPA-CKD) and heart-failure-entry (DAPA-HF, EMPEROR) trials excluded to keep the population coherent
 - **Included trials:** EMPA-REG OUTCOME, CANVAS Program, DECLARE-TIMI 58, VERTIS-CV
 - **Effect measure:** hazard ratios pooled on the log scale (inverse-variance, random effects); HRs chosen because these are time-to-event trials with differing follow-up and per-arm event counts were not uniformly reported
+- **Cross-validation:** the pooled estimate was independently reproduced using `metafor` (`rma()`/`escalc()`), confirming the result (HR 0.70, 95% CI 0.62–0.78) against a second implementation
 - **Reporting:** fully reproducible Quarto document — every figure and statistic computed from code
 
 ## Files
