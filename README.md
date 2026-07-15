@@ -25,6 +25,10 @@ This project synthesizes randomized evidence on SGLT2 inhibitors versus placebo 
 
 Four trials (each large, but a modest number); two enrolled mixed primary/secondary-prevention populations; HF hospitalization was a secondary outcome in most trials; effect estimates extracted as reported hazard ratios rather than from individual patient data.
 
+## Companion work
+
+https://github.com/Said-Adjao/sglt2_budget_impact_analysis
+
 ## Tools
 
 R · `meta` · `tidyverse` · Quarto · Rayyan · PubMed
